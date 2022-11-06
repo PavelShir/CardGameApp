@@ -9,10 +9,11 @@ import SwiftUI
 
 struct ContentView: View {
     @State private var cardIsTaken = false
-    private let firstCard = "Взять карту"
-    private let secondCard = "Взять вторую"
-    private let theardCard = "Взять третью"
-    private let fourthCard = "Взять четвертую"
+    
+    private let buttonLabel = [
+        "Взять карту", "Взять вторую", "Взять третью", "Взять четвертую"
+    ]
+    @State private var index = 0
     
     var body: some View {
         
@@ -20,13 +21,19 @@ struct ContentView: View {
             Button(
                 action: {
                     buttonAction()
+                    if index < 3 {
+                        index += 1
+                    } else {
+                        index = 0
+                    }
                 }, label: {
-                    Text(firstCard)
+                    Text(buttonLabel[index])
                 })
             .font(.system(size: 26))
             Spacer()
             
             ZStack(alignment: .center) {
+               
                 if cardIsTaken {
                     
                     DiamondView()
