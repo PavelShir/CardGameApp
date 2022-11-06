@@ -13,8 +13,8 @@ struct DiamondView: View {
             ZStack {
                 Rectangle().stroke(Color.gray, lineWidth: 5)
                     .frame(width: 200, height: 300)
-                    .foregroundColor(.white)
-                .rotationEffect(.degrees(Double(-20)))
+                    .background(.white)
+                    .rotationEffect(.degrees(Double(-20)))
                 Image(systemName: "suit.diamond.fill")
                     .resizable()
                     .frame(width: 50, height: 70)

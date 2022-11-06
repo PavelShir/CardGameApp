@@ -10,10 +10,12 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         
-        DiamondView()
-            
-                
+        ZStack {
+            DiamondView()
+            SpaidView()
+            ClubView()
         }
+    }
 }
     
 
