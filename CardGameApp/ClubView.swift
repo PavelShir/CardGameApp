@@ -10,34 +10,35 @@ import SwiftUI
 struct ClubView: View {
     var body: some View {
         
-        
         ZStack {
             Rectangle().stroke(Color.gray, lineWidth: 5)
                 .frame(width: 200, height: 300)
                 .background(.white)
-                .rotationEffect(.degrees(Double(20)))
-            Image(systemName: "suit.club.fill")
-                .resizable()
-                .frame(width: 50, height: 70)
-                .foregroundColor(.black)
-                .rotationEffect(.degrees(Double(20)))
             VStack {
+                HStack {
+                    Image(systemName: "suit.club.fill")
+                        .resizable()
+                        .frame(width: 20, height: 30)
+                        .foregroundColor(.black)
+                    Spacer()
+                }
+                Spacer()
                 Image(systemName: "suit.club.fill")
                     .resizable()
-                    .frame(width: 20, height: 30)
+                    .frame(width: 50, height: 70)
                     .foregroundColor(.black)
-                    .rotationEffect(.degrees(Double(20)))
-                    .position(x: 165, y: 240)
-                Image(systemName: "suit.club.fill")
-                    .resizable()
-                    .frame(width: 20, height: 30)
-                    .foregroundColor(.black)
-                    .rotationEffect(.degrees(Double(20)))
-                    .position(x: 225, y: 140)
+                Spacer()
+                HStack {
+                    Spacer()
+                    Image(systemName: "suit.club.fill")
+                        .resizable()
+                        .frame(width: 20, height: 30)
+                        .foregroundColor(.black)
+                }
             }
-      
+            .frame(width: 180, height: 280)
         }
-        
+        .rotationEffect(.degrees(Double(20)))
     }
 }
 

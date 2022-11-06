@@ -14,6 +14,7 @@
 		A6BAEB3829184BBD004ECF41 /* DiamondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6BAEB3729184BBD004ECF41 /* DiamondView.swift */; };
 		A6BAEB3A29184E04004ECF41 /* SpaidView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6BAEB3929184E04004ECF41 /* SpaidView.swift */; };
 		A6BAEB3C291851CC004ECF41 /* ClubView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6BAEB3B291851CC004ECF41 /* ClubView.swift */; };
+		A6BAEB3E29185388004ECF41 /* HeartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6BAEB3D29185388004ECF41 /* HeartView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		A6BAEB3729184BBD004ECF41 /* DiamondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiamondView.swift; sourceTree = "<group>"; };
 		A6BAEB3929184E04004ECF41 /* SpaidView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaidView.swift; sourceTree = "<group>"; };
 		A6BAEB3B291851CC004ECF41 /* ClubView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClubView.swift; sourceTree = "<group>"; };
+		A6BAEB3D29185388004ECF41 /* HeartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 			children = (
 				A64E345A29183DEB00980FE8 /* CardGameAppApp.swift */,
 				A64E345C29183DEB00980FE8 /* ContentView.swift */,
+				A6BAEB3D29185388004ECF41 /* HeartView.swift */,
 				A6BAEB3B291851CC004ECF41 /* ClubView.swift */,
 				A6BAEB3729184BBD004ECF41 /* DiamondView.swift */,
 				A6BAEB3929184E04004ECF41 /* SpaidView.swift */,
@@ -147,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A64E345D29183DEB00980FE8 /* ContentView.swift in Sources */,
+				A6BAEB3E29185388004ECF41 /* HeartView.swift in Sources */,
 				A6BAEB3C291851CC004ECF41 /* ClubView.swift in Sources */,
 				A6BAEB3829184BBD004ECF41 /* DiamondView.swift in Sources */,
 				A6BAEB3A29184E04004ECF41 /* SpaidView.swift in Sources */,

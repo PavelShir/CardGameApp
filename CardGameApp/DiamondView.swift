@@ -10,33 +10,36 @@ import SwiftUI
 struct DiamondView: View {
     var body: some View {
 
-            ZStack {
-                Rectangle().stroke(Color.gray, lineWidth: 5)
-                    .frame(width: 200, height: 300)
-                    .background(.white)
-                    .rotationEffect(.degrees(Double(-20)))
-                Image(systemName: "suit.diamond.fill")
+        ZStack {
+            Rectangle().stroke(Color.gray, lineWidth: 5)
+                .frame(width: 200, height: 300)
+                .background(.white)
+            VStack {
+                HStack {
+                    Image(systemName: "diamond.fill")
+                        .resizable()
+                        .frame(width: 20, height: 30)
+                        .foregroundColor(.red)
+                    Spacer()
+                }
+                Spacer()
+                Image(systemName: "diamond.fill")
                     .resizable()
                     .frame(width: 50, height: 70)
                     .foregroundColor(.red)
-                    .rotationEffect(.degrees(Double(-20)))
-                VStack {
-                    Image(systemName: "suit.diamond.fill")
+                Spacer()
+                HStack {
+                    Spacer()
+                    Image(systemName: "diamond.fill")
                         .resizable()
                         .frame(width: 20, height: 30)
                         .foregroundColor(.red)
-                        .rotationEffect(.degrees(Double(-20)))
-                        .position(x: 80, y: 290)
-                    Image(systemName: "suit.diamond.fill")
-                        .resizable()
-                        .frame(width: 20, height: 30)
-                        .foregroundColor(.red)
-                        .rotationEffect(.degrees(Double(-20)))
-                        .position(x: 310, y: 80)
                 }
-          
             }
+            .frame(width: 180, height: 280)
         }
+        .rotationEffect(.degrees(Double(-20)))
+    }
         
     struct DiamondView_Previews: PreviewProvider {
         static var previews: some View {
