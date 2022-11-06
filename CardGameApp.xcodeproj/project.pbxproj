@@ -11,6 +11,7 @@
 		A64E345D29183DEB00980FE8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A64E345C29183DEB00980FE8 /* ContentView.swift */; };
 		A64E345F29183DF000980FE8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A64E345E29183DF000980FE8 /* Assets.xcassets */; };
 		A64E346229183DF000980FE8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A64E346129183DF000980FE8 /* Preview Assets.xcassets */; };
+		A6BAEB3829184BBD004ECF41 /* DiamondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6BAEB3729184BBD004ECF41 /* DiamondView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		A64E345C29183DEB00980FE8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A64E345E29183DF000980FE8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A64E346129183DF000980FE8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A6BAEB3729184BBD004ECF41 /* DiamondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiamondView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				A64E345A29183DEB00980FE8 /* CardGameAppApp.swift */,
 				A64E345C29183DEB00980FE8 /* ContentView.swift */,
+				A6BAEB3729184BBD004ECF41 /* DiamondView.swift */,
 				A64E345E29183DF000980FE8 /* Assets.xcassets */,
 				A64E346029183DF000980FE8 /* Preview Content */,
 			);
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A64E345D29183DEB00980FE8 /* ContentView.swift in Sources */,
+				A6BAEB3829184BBD004ECF41 /* DiamondView.swift in Sources */,
 				A64E345B29183DEB00980FE8 /* CardGameAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
